@@ -37,7 +37,7 @@ repositories = [
 # EDIT: add YOUR IAM user/role so kubectl works from your laptop.
 #   Find it with:  aws sts get-caller-identity --query Arn --output text
 cluster_admin_arns = [
-    { arn = "arn:aws:iam::477170636144:user/terra" },
+  "arn:aws:iam::477170636144:user/terra",
 ]
 
 # ---- GitOps -------------------------------------------------------------------
