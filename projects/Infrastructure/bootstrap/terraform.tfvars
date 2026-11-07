@@ -9,7 +9,7 @@ github_repository_id = "1449184426"
 
 # true = create the GitHub OIDC provider (new account). Set false if
 # "aws iam list-open-id-connect-providers" already lists token.actions.githubusercontent.com
-create_github_oidc_provider = true
+create_github_oidc_provider = false
 
 # Your GoDaddy domain (e.g. "telugupickles.in"). Leave "" until you are ready.
 domain_name = ""
